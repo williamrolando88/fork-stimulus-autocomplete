@@ -36,8 +36,6 @@ export default class Autocomplete extends Controller {
     if (this.inputTarget.hasAttribute("autofocus")) {
       this.inputTarget.focus();
     }
-
-    this.readyValue = true;
   }
 
   disconnect() {
